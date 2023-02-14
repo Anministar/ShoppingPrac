@@ -111,6 +111,8 @@ section td {
 
 	<footer> HRDKOREA Copyright@2016 ALL - </footer>
 
+
+
 	<script>
 		function isValid() {
 			const frm = document.joinfrm;
