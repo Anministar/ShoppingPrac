@@ -11,6 +11,8 @@
 request.setCharacterEncoding("UTF-8");
 %>
 
+
+
 <jsp:useBean id="dto" class="Dto.MemberDto" />
 <jsp:setProperty property="*" name="dto" />
 
