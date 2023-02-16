@@ -54,7 +54,7 @@ section td {
 		<ul>
 			<li><a href="MemberJoin.jsp">회원등록</a></li>
 			<li><a href="MemberInfo.jsp">회원목록조회/수정</a></li>
-			<li><a href="">회원매출조회</a></li>
+			<li><a href="sales.jsp">회원매출조회</a></li>
 			<li><a href="index.jsp">홈으로</a></li>
 		</ul>
 
@@ -71,7 +71,7 @@ section td {
 		int month = cal.get(Calendar.MONTH) + 1 ;
 		int day = cal.get(Calendar.DATE);
 		System.out.println(year + "" + month + "" + day);
-		String date = year + "" + month + "" + day;
+		String date = year + "" + "0" + month + "" + day;
 	%>
 	
 	

@@ -36,7 +36,7 @@ if (isok) {
 
 <script>
 	alert("회원 등록을 실패하였습니다!");
-	location.href = "../memberJoin.jsp";
+	location.href = "../MemberJoin.jsp";
 </script>
 
 <%

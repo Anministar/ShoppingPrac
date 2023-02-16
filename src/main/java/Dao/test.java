@@ -62,23 +62,23 @@ public class test {
 				
 		
 		
-		test 이동하 = new test(); 객체형성  ==> use bean
+//		test 이동하 = new test(); 객체형성  ==> use bean
 		//이름이 ""
 		//나이도 ""
 		
 		
-		이동하.setName("이동하");  값설정==> setproperty
+//		이동하.setName("이동하");  값설정==> setproperty
 		//이름이 이동하
 		
 		
-		이동하.setAge("24"); 값설정==> setproperty
+//		이동하.setAge("24"); 값설정==> setproperty
 		//나이가 24
 		
 		
 		
-		System.out.println(이동하.getName());
+//		System.out.println(이동하.getName());
 		//이름를 불러오고
-		System.out.println(이동하.getAge());
+//		System.out.println(이동하.getAge());
 		//나이를 불러오고
 		
 		

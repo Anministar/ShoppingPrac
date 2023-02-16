@@ -54,7 +54,7 @@ section td {
 		<ul>
 			<li><a href="MemberJoin.jsp">회원등록</a></li>
 			<li><a href="MemberInfo.jsp">회원목록조회/수정</a></li>
-			<li><a href="">회원매출조회</a></li>
+			<li><a href="sales.jsp">회원매출조회</a></li>
 			<li><a href="index.jsp">홈으로</a></li>
 		</ul>
 
@@ -81,7 +81,7 @@ section td {
 	<section>
 		<h2>홈쇼핑 회원 정보 수정</h2>
 
-		<form action="proc/updateproc.jsp" method="post">
+		<form action="proc/updateproc.jsp" method="post" name="updatefrm">
 			<table align=center>
 				<tr>
 					<td>회원번호</td>
@@ -130,7 +130,7 @@ section td {
 
 	<script>
 		function isValid() {
-			const frm = document.joinfrm;
+			const frm = document.updatefrm;
 			if(frm.custname.value.trim()=="") {
 				alert("회원 성명이 입력되지 않았습니다!");
 				frm.custname.focus();
@@ -159,8 +159,7 @@ section td {
 			
 			
 			//문제 없을 경우
-			frm.action="proc/joinproc.jsp";
-			frm.submit();
+			frm.submit(); 
 		}
 	
 	
